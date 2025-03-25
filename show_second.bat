@@ -1,9 +1,4 @@
 @echo off
-net session >nul 2>&1 || (
-    echo This file needs to be run with administrator privileges.
-    pause
-    exit /b
-)
 echo [1] Show Clock Seconds
 echo [2] Hide Clock Seconds
 
